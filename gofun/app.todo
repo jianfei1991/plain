@@ -1,2 +1,48 @@
 --- ✄ ----------------------- 4.0
  ☐ 上线 @due(18-09-18 18:00)x
+ ☐ 对接kong服务 @created(18-09-07 11:03)
+ ☐ api返全URL @created(18-09-07 11:03)
+ ☐ 奖励规则 @恐凡 @created(18-09-07 11:03)
+ ☐ 生产环境网关配置 @high @due(18-09-10 00:00) @created(18-09-08 16:45)
+ ✔ 网关配置 @high @due(18-09-07 19:00) @created(18-09-07 15:34) @done (18-09-08 16:45)  
+ ☐ 封装JsBridge @李亚 @created(18-09-07 16:04)
+ ☐ 统一app4项目环境配置 @created(18-09-07 17:38)
+ ☐ app4 code review @created(18-09-07 18:20)
+  
+ ✔ 开发票 开票金额超过了可开金额 @high @露露 @created(18-09-08 17:15) @done (18-09-10 10:56)
+ ☐ 开发票 下一步按钮样式不对 @李亚 @terry @created(18-09-08 17:15)
+
+ ☐ 等待API发版验证问题 @high  取消订单=》问题反馈、地图右上角=〉我的客服、
+
+
+ ☐ PV、UV统计 VUE改hash模式 @created(18-09-10 12:01)
+
+ ☐ 还车页面发红包其实是拉新链接，这个也要改一下@GoFun-H5-吴建飞 @吴琳 @high @created(18-09-08 16:16)
+
+ ✔ 修改手机号
+ ✔ 意见反馈
+ ✔ 活动中心
+  ☐ 邀请好友。/h5/invityPage.json  这个接口 之前 在/n. 分组。现在 wiki里面搜不到了   分组=》o4h5？？？ @high  
+  ✘ 网关环境。UA里面给的host还是tcapi 
+  ✘ 个人中心-文明信用分。就是那个半嵌入的ewbview。jsbridge在我们发请求的时候 找不到jsbridge,注入实际晚了点 
+  ✔ 发票历史 初始化页面接口成功
+  ✔ 开发票
+  ✘ 个人中心=》我的行程= 》开发票=〉发票历史。 URL配置不正确，配置地址：http://39.107.98.106:8000/h5app4/dist/#/invoiceHistory。  
+  ✔ 填写发票
+
+  ✘ 车辆卡片页面-》计价规则。 地址替换为"http://app4.gftest.cloudns.asia:88/dist/#/chargeDetail 
+  ☐ 车辆卡片页面-》不计免赔说明。 虽然能正常显示，但是地址未替换   （纯静态）
+  ✘ 行程中-》不计免赔说明。 虽然能正常显示，但是地址未替换    （纯静态）
+  ✘ 订单结算=》 不计免赔。地址未更换     （纯静态）
+  ✘ 免费还车-》去反馈 地址改为http://39.107.98.106:8000/h5app4/dist/#/reportProblem 
+  ✘ 订单结算=〉超挺服务费。地址未更换 
+
+
+
+  ☐ 部分规则页面为纯静态文件。是否需要走kong？ @张鹏
+  host未替换的 统一由http://app4.gftest.cloudns.asia:88 变更为 http://39.107.98.106:8000/h5app4/
+
+
+      测试环境Host： http://39.107.98.106:8000/h5app4/
+      预发布Host :  https://pregatewayapi.shouqiev.com:8443/h5app4/
+      生产环境Host: https://gateway.shouqiev.com:8443/h5app4/

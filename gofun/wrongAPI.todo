@@ -1,0 +1,36 @@
+ ☐ http://39.107.98.106:8000/app/startUp.json?deviceId=b28960a149b9358203a0ff413bb43724&deviceType=iPhone8,2&os=ios&marketId=APPStore&versionId=11.4&appVersion=400&cityCode=010&adCode=&referer=http://api.shouqiev.com&sourceFor=gofun
+
+
+ {
+  "code": 200,
+  "desc": "OK",
+  "modelData": {
+    "helpCenter": "https://h5.shouqiev.com/app/rules/helpCenter/helpCenter.html",
+    "abatementDesc": "https://h5.shouqiev.com/app/rules/funRules/AbatementDesc.html",
+    "userAgreement": "https://img.shouqiev.com/EcrAppService/document/UserAgreement.html",
+    "aboutUseCar": "http://www.izuche.com/vipManage01.aspx",
+    "userCertificationSwitch": "1",
+    "ProguardSwitch": "1",
+    "customerServiceUrl": "http://app.gftest.cloudns.asia:88/dist/#/myService",
+    "abatement": "10",
+    "aboutCredit": "https://img.shouqiev.com/EcrAppService/document/AboutCredit.html"
+  }
+}
+
+
+
+
+
+
+
+https://api2.shouqiev.com/order/myTripDetail.json?deviceId=b28960a149b9358203a0ff413bb43724&deviceType=iPhone8,2&os=ios&marketId=APPStore&versionId=11.4&appVersion=400&cityCode=010&adCode=110108&cur_lat=39.9297509765625&cur_lon=116.276068522135&referer=http://api.shouqiev.com&sourceFor=gofun&GOFUNAUTHORIZATION=48c129c69f01de1d3fa6265efbd40c55
+
+
+"customerServiceUrl": "http://app.shouqiev.com/dist/#/myService?itemUseScenes=customer",  同上
+
+https://api2.shouqiev.com/s/userCenter/center.json?deviceId=b28960a149b9358203a0ff413bb43724&deviceType=iPhone8,2&os=ios&marketId=APPStore&versionId=11.4&appVersion=400&cityCode=010&adCode=110108&cur_lat=39.9296397569444&cur_lon=116.276111111111&referer=http://api.shouqiev.com&sourceFor=gofun&GOFUNAUTHORIZATION=48c129c69f01de1d3fa6265efbd40c55
+
+"customerUrl": "http://app.shouqiev.com/dist/#/myService?itemUseScenes=customer",
+这个字段返回地址改成https://app4.
+
+ ☐ @high 9-10已发邮件
